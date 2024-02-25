@@ -24,7 +24,6 @@ const destroyBoxes = () => {
   document.getElementById('boxes').innerHTML = '';
 };
 
-document.addEventListener('DOMContentLoaded', () => {
   const createButton = document.querySelector('[data-create]');
   const destroyButton = document.querySelector('[data-destroy]');
   const input = document.querySelector('input');
@@ -40,4 +39,4 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   destroyButton.addEventListener('click', destroyBoxes);
-});
+
